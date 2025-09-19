@@ -196,3 +196,29 @@ Full screen
 
 // Primitive datatypes => stack memory => new variable gets its value as copy from prev one => as it copy change to either wont affect other
 // Non-Primitive datatypes => heap memory => new variable gets reference of its val from prev one => so both changes simultanous if one is changed as beasically they are referencing at the same memory spot
+
+let a = 20;
+let b = "num"
+
+console.log(b + ": " + a);
+console.log(`${b}: ${a}`); // string interpolation
+
+let c = new String("  number  ") // try pasting both in console and print to see diff
+
+console.log(b.toUpperCase());
+console.log(b.charAt(2));
+console.log(b.indexOf('u'));
+console.log(b.slice(0,2));
+console.log(c.length);
+console.log(c.substring(0,7));
+console.log(c.trim());
+console.log(c.trimLeft);
+console.log(c.trimRight);
+
+let d = c.replace("umb" , "bum");
+
+console.log(d);
+console.log(d.includes("umb"));
+
+let e = "ram,shyam,ghanshyam,wyam,dham,nam,sam,kam,aam,bam";
+console.log(e.split(','));
