@@ -197,6 +197,7 @@ Full screen
 // Primitive datatypes => stack memory => new variable gets its value as copy from prev one => as it copy change to either wont affect other
 // Non-Primitive datatypes => heap memory => new variable gets reference of its val from prev one => so both changes simultanous if one is changed as beasically they are referencing at the same memory spot
 
+/*
 let a = 20;
 let b = "num"
 
@@ -222,3 +223,44 @@ console.log(d.includes("umb"));
 
 let e = "ram,shyam,ghanshyam,wyam,dham,nam,sam,kam,aam,bam";
 console.log(e.split(','));
+*/
+
+/*
+
+let num1 = 13540.342;
+let num2 = new Number(45254.4567);
+console.log(num1);
+console.log(num2);
+
+console.log(num1.toString());
+console.log(num2.toString().length);
+
+console.log(num1.toFixed(2));
+console.log(num1.toFixed(4));
+console.log(num2.toPrecision(4));
+console.log(num2.toPrecision(7));
+console.log(num2.toPrecision(9));
+
+let num3 = 100000000;
+console.log(num3.toLocaleString());
+console.log(num3.toLocaleString("en-IN"));
+
+console.log(Number.MAX_SAFE_INTEGER);
+console.log(Number.MIN_SAFE_INTEGER);
+
+let num4 = -4563;
+console.log(Math);
+console.log(Math.abs(num4));
+console.log(Math.round(num1));
+console.log(Math.ceil(num1));
+console.log(Math.floor(num1));
+console.log(Math.min(3,11,99,755,-1,256,44,-22));
+console.log(Math.max(3,11,99,755,-1,256,44,-22));
+
+let min = 11 , max = 27;
+
+console.log(Math.floor(Math.random()));
+console.log(Math.floor(Math.random() * 10));
+console.log(Math.floor(Math.random() * 10) +1);
+console.log(Math.floor(Math.random() * (max - min + 1)) + min);
+*/
