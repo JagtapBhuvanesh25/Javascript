@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color the boxes</title>
+    <style>
+        .container {
+            width: 100vw;
+            height: 100vh;
+            border: 5px solid;
+        }
+
+        .box {
+            width: 100vw;
+            height: 20vh;
+            border: 2px solid;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        * {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">BOX: 1</div>
+        <div class="box">BOX: 2</div>
+        <div class="box">BOX: 3</div>
+        <div class="box">BOX: 4</div>
+        <div class="box">BOX: 5</div>
+    </div>
+    <script>
+        document.body.firstElementChild.firstElementChild.style.backgroundColor = "red"
+        document.body.firstElementChild.children[1].style.backgroundColor = "blue"
+        document.body.firstElementChild.children[2].style.backgroundColor = "green"
+        document.body.firstElementChild.children[3].style.backgroundColor = "blue"
+        document.body.firstElementChild.lastElementChild.style.backgroundColor = "orange"
+    </script>
+</body>
+
+</html>

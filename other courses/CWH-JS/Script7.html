@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Children sibling snd parent nodes</title>
+    <style>
+        .box{
+            border: 2px solid gold;
+            width: 150px;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: x-large ;
+            background-color: gray;
+            color:wheat;
+        }
+    </style>
+</head>
+<body>
+    <div class="container smartbox">
+        <div class="box">Box1</div>
+        <div class="box">Box2</div>
+        <div class="box">Box3</div>
+        <div class="box">Box4</div>
+        <div class="box">Box5</div>
+        <div class="box">Box6</div>
+    </div>
+
+    <!-- @Learning about nodes
+            1. Parent node - Node containing your given node.
+            2. Children node - Node(s) insde of your node.
+            3. Sibling node - Node(s) with your node inside the same parent.
+        
+        @Bsic syntax(example)
+            document.body.childnodes[1]
+        Use in console to get a better idea.
+
+        ""Selectors by DOM model in javascript""
+            dom.parentnode -> use to acess parent node.
+            dom.childnodes -> use to acess the child node.
+            dom.childnodes[i] -> use to acess a particular node for index (0-i) includind text nodes.
+            dom.firstchild -> use to access the first node.
+            dom.lastchild -> use to access the last node.
+            dom.children -> use to access the element node.
+            dom.firstElementchild -> use to access the first element node.
+            dom.lastElementchild -> use to access the last element node.
+            let any_var = dom -> store dom adress in a certain variable
+            dom.innerHTML -> To get HTML in inside the element.
+            dom.innertext -> To get text in inside the element.
+            dom.children[i].nextsibling -> use to acess next sibling.
+            dom.children[i].nextElementSibling -> use to acess enxt Element sibling.
+            dom.children[i].previousSibling -> use to acess previous sibling.
+            dom.children[i].previousElementSibling -> use to acess previous Element sibling.
+    -->
+</body>
+</html>
