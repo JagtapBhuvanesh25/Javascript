@@ -1,26 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Events</title>
-</head>
-<body style="background-color: #414141; color: aliceblue;">
-    <h2>Amazing image</h2>
-    <div >
-        <ul id="images">
-            <li><img width="200px" class="photo" id="photoshop" src="https://images.pexels.com/photos/3561339/pexels-photo-3561339.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="photoshop"></li>
-            <li><img width="200px" class="photo" id="japan" src="https://images.pexels.com/photos/3532553/pexels-photo-3532553.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt=""></li>
-            <li><img width="200px" class="photo" id="river" src="https://images.pexels.com/photos/3532551/pexels-photo-3532551.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt=""></li>
-            <li><img width="200px" class="photo" id="owl" src="https://images.pexels.com/photos/3532552/pexels-photo-3532552.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="" ></li>
-            <li><img width="200px" class="photo" id="prayer" src="https://images.pexels.com/photos/2522671/pexels-photo-2522671.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt=""></li>
-            <li><a style="color: aliceblue;" href="https://google.com" id="google" >Google</a></li>
-            <!-- <li><a style="color: aliceblue;" href="https://google.com" id="google" onclick="alert(`hi wassup`)">Google</a></li> --> 
-            <!-- not a good way No Propogation-->
-        </ul>
-   </div>
-</body>
-<script>
     // old ways
     // attachEvent()
     // jQuery - on
@@ -67,5 +44,3 @@
         console.log(e.target.tagName);
         if(e.target.tagName === 'IMG') e.target.parentNode.remove();
     });
-</script>
-</html>
