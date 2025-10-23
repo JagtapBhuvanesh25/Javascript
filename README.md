@@ -1,6 +1,6 @@
-# JavaScript Concepts & Mini-Projects Collection 🧠
+# JavaScript Concepts🧠
 
-This repository is a **hands-on collection of JavaScript (vanilla) concepts and mini-projects**, organised into focused folders by topic. Whether you’re starting out or reinforcing fundamentals, each section aims to clarify core JavaScript ideas and how they apply in practice.
+This repository is a **hands-on collection of JavaScript (vanilla) concepts**, organised into focused folders by topic. Whether you’re starting out or reinforcing fundamentals, each section aims to clarify core JavaScript ideas and how they apply in practice.
 
 ---
 
